@@ -1,0 +1,704 @@
+* {
+    box-sizing: border-box !important;
+}
+
+.selected {
+ color: #903404;
+ text-decoration: inherit;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: #131311;
+    padding-top: 15px;
+    z-index: 2;
+}
+
+body {
+    background-color: #131311;
+  }
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav li {
+    display: inline-flex;
+    padding: 0 5px;
+    height: 25px; 
+    margin: 0 8px 15px 8px;
+    color: #F3F2E2;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav li:hover {
+    color: #903404;
+}
+
+header {
+    background-color: #131311;
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #F3F2E2;
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Great Vibes', cursive;
+}
+
+  #mainpicture {
+    background-image: url("../Images/KernsWedding.JPG");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 0 -150px;
+    padding: 0;
+  }
+
+  #mainpicture h2 {
+    margin: 0;
+    height: 100%;
+    padding: 360px 0;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  
+  #mainpicture div {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    text-transform: none;
+  }
+
+  #mainpicture sup {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    text-transform: none;
+  }
+
+
+  a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+  }
+
+  a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+  }
+
+  a.partstyle {
+    text-decoration: inherit;
+    color: #0645AD;
+  }
+
+  a.partstyle:visited {
+    text-decoration: inherit;
+    color: #0645AD;
+  }
+
+.intro {
+    Margin: 15px auto 30px auto;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight: 600;
+    width: 60%;
+    color: black;
+}
+
+#small {
+    font-weight: 1000;
+    Margin: 10px auto 40px;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.big {
+    font-weight: 1000;
+    Margin: 40px auto 0;
+    text-align: center;
+    width: 80%;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.BCdetails {
+    font-weight: 500;
+    Margin: 7px auto 0;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    width: 100%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.details {
+    font-weight: 500;
+    Margin: 7px auto 0;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    width: 80%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.details2 {
+    font-weight: 500;
+    Margin: 7px auto 0;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    width: 80%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inner li {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    list-style-position: inside;
+    padding: 3px 0;
+}
+
+li.left {
+    transform: translateX(190%);
+    width:20%;
+    display: table;
+    margin-bottom: 10px;
+    background-color: black;
+    color: #F3F2E2;
+    border: solid black 4px;
+    border-radius: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li.left:hover {
+    background-color: #6D8267;
+}
+
+li.right {
+    transform: translateX(230%);
+    width:20%;
+    display: table;
+    margin-bottom: 10px;
+    background-color: black;
+    color: #F3F2E2;
+    border: solid black 4px;
+    border-radius: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li.right:hover {
+    background-color: #6D8267;
+}
+
+.italic {
+    font-style: italic;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    Margin: 40px auto 0;
+}
+
+ol {
+    padding-left: 0;
+    list-style-type: decimal;
+    margin-bottom: 80px;
+}
+
+.but-cont {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.anchorfix {
+    margin-top: -30px;
+    padding-bottom: 60px; 
+    display: block; 
+}
+
+a.button {
+    background-color: black;
+    border: solid black 4px;
+    border-radius: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 40px;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    display: inline-block;
+}
+
+a.button:hover {
+    background-color: #6D8267;
+    color: #F3F2E2;
+}
+
+a div {
+    padding-top: 55px;
+    color: #F3F2E2;
+}
+
+#Quills {
+    background-image: url("../Images/quills-logo.jpeg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border: solid black 4px;
+    border-radius: 4px;
+    margin: 40px;
+    width: 280px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#Quills:hover {
+    background-color: #6D8267;
+}
+
+#BGB {
+    background-image: url("../Images/butchertowngrocery.jpeg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#BGB:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    border: solid black 3px;
+}
+
+#BB {
+    background-image: url("../Images/biscuitbellylogo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    border: solid black 1px;
+    border-radius: 80px;
+}
+
+#BB:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    border: solid black 3px;
+    border-radius: 80px;
+}
+
+#nulumarket {
+    background-image: url("../Images/nulumarketplace.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#nulumarket:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    border: solid black 3px;
+}
+
+#CC {
+    background-image: url("../Images/Clayton&Crume.jpeg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 60px 40px 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#CC:hover {
+    width: 164px;
+    height: 164px;
+    margin: 58px 40px 38px;
+    border: solid black 3px;
+}
+
+#SSB {
+    background-image: url("../Images/SixSisters.jpeg");
+    background-size: 97%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#SSB:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    border: solid black 3px;
+}
+
+#JD {
+    background-image: url("../Images/Jones&Daughters.jpeg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 70px 40px 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#JD:hover {
+    width: 164px;
+    height: 164px;
+    margin: 68px 40px 38px;
+    border: solid black 3px;
+}
+
+#royals {
+    background-image: url("../Images/royalshotchicken.jpeg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#royals:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    border: solid black 3px;
+}
+
+#guacamole {
+    background-image: url("../Images/guacamole.jpeg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#guacamole:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    border: solid black 3px;
+}
+
+#RH {
+    background-image: url("../Images/rabbithole.jpeg");
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    border: solid black 1px;
+    border-radius: 80px;
+    justify-content: center;
+}
+
+#RH:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    background-color: #401A14;
+    border: solid black 3px;
+    border-radius: 80px;
+}
+
+#AE {
+    background-image: url("../Images/AE.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#AE:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    background-color: #401A14;
+    border: solid black 3px;
+}
+
+#michters {
+    background-image: url("../Images/michter.jpeg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#michters:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    background-color: #401A14;
+    border: solid black 3px;
+}
+
+#EW {
+    background-image: url("../Images/evanwilliams.jpeg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#EW:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    background-color: #401A14;
+    border: solid black 3px;
+}
+
+#OF {
+    background-image: url("../Images/oldforester.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#OF:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    border: solid black 3px;
+}
+
+#CD {
+    background-image: url("../Images/churchilldowns.jpeg");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+#CD:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    border: solid black 3px;
+}
+
+#LS {
+    background-image: url("../Images/louisvilleslugger.webp");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 40px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+.flex {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex section {
+    flex-basis: 33%;
+}
+
+#LS:hover {
+    width: 164px;
+    height: 164px;
+    margin: 38px;
+    border: solid black 3px;
+}
+
+a.todob div {
+    padding-top: 40px;
+    color: #F3F2E2;
+}
+
+  img.photo {
+    margin: 20px auto;
+	border: 1px solid #999;
+	background-color: #fcfcfc;
+	padding: 4px; 
+    display: block;
+    width: 70%;
+}
+
+main {
+    background-color: #401A14;
+    height: 100%;
+    padding-bottom: 150px;
+  }
+
+  footer {
+    background-color: #131311;
+    height: 64px;
+    position: relative;
+}
+
+  footer p {
+    margin: auto;
+    position: relative;
+    top: 30%;
+    vertical-align: bottom;
+    color: #F3F2E2;
+  }
+
+.outer {
+    background-color: #F3F2E2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+    width: 78%;
+    position: relative;
+    top: 64px;
+    padding-bottom: 22px;
+}
+
+.border {    
+    background-color: #401A14;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    width: calc(100% - 30px);
+    height: calc(100% - 15px);
+    padding-bottom: 5px;
+}
+
+.inner {
+    background-color: #F3F2E2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    height: calc(100% - 15px);
+    width: 99%;
+}
+
+.endspace {
+    padding: 40px 0;
+} 
