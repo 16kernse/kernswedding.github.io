@@ -621,7 +621,7 @@ a div {
     justify-content: space-around;
 }
 
-.flex section {
+section.flex {
     flex-basis: 33%;
 }
 
