@@ -237,7 +237,7 @@ ol {
 }
 
 .but-cont {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
 }
 
@@ -246,12 +246,6 @@ ol {
     padding-bottom: 60px; 
     display: block; 
 }
-
-.CBinline {
-    display: inline-block;
-    width: 33%;
-}
-
 
 a.button {
     background-color: black;
@@ -275,10 +269,6 @@ a.button:hover {
 a div {
     padding-top: 55px;
     color: #F3F2E2;
-}
-
-#inlinefix {
-    text-align: center;
 }
 
 #Quills {
@@ -485,6 +475,7 @@ a div {
     height: 160px;
     border: solid black 1px;
     border-radius: 80px;
+    justify-content: center;
 }
 
 #RH:hover {
@@ -622,6 +613,16 @@ a div {
     height: 160px;
     text-align: center;
     display: inline-block;
+}
+
+.flex {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex section {
+    flex-basis: 33%;
 }
 
 #LS:hover {
