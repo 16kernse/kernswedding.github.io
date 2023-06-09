@@ -183,16 +183,16 @@ h1 {
 }
 
 li.left {
-    transform: translateX(190%);
-    width:20%;
-    display: table;
-    margin-bottom: 10px;
+    width: 35%;
+    min-width: 165px;
+    height: auto;
+    margin: 0 auto 10px;
     background-color: black;
     color: #F3F2E2;
     border: solid black 4px;
     border-radius: 80px;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -201,16 +201,17 @@ li.left:hover {
 }
 
 li.right {
-    transform: translateX(230%);
-    width:20%;
-    display: table;
-    margin-bottom: 10px;
+    width: 35%;
+    min-width: 165px;
+    height: auto;
+    justify-content: right;
+    margin: 0 auto 10px;
     background-color: black;
     color: #F3F2E2;
     border: solid black 4px;
     border-radius: 80px;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -239,6 +240,8 @@ ol {
 .but-cont {
   display: inline-flex;
   justify-content: center;
+  height: 202px;
+  width: 100%
 }
 
 .anchorfix {
@@ -279,9 +282,10 @@ a div {
     background-color: black;
     border: solid black 4px;
     border-radius: 4px;
-    margin: 40px;
-    width: 280px;
-    height: 160px;
+    margin-top: 40px;
+    width: 65%;
+    min-width: 160px;
+    height: auto;
     text-align: center;
     display: inline-block;
 }
@@ -298,7 +302,7 @@ a div {
     background-color: white;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -308,7 +312,8 @@ a div {
 #BGB:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
 }
 
@@ -317,7 +322,7 @@ a div {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     border: solid black 1px;
@@ -327,7 +332,8 @@ a div {
 #BB:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
     border-radius: 80px;
 }
@@ -340,7 +346,7 @@ a div {
     background-color: white;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -350,7 +356,8 @@ a div {
 #nulumarket:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
 }
 
@@ -362,7 +369,7 @@ a div {
     background-color: white;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 60px 40px 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -372,7 +379,8 @@ a div {
 #CC:hover {
     width: 164px;
     height: 164px;
-    margin: 58px 40px 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
 }
 
@@ -384,7 +392,7 @@ a div {
     background-color: white;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -394,7 +402,8 @@ a div {
 #SSB:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
 }
 
@@ -406,7 +415,7 @@ a div {
     background-color: white;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 70px 40px 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -416,7 +425,8 @@ a div {
 #JD:hover {
     width: 164px;
     height: 164px;
-    margin: 68px 40px 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
 }
 
@@ -428,7 +438,7 @@ a div {
     background-color: white;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -438,7 +448,8 @@ a div {
 #royals:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
 }
 
@@ -450,7 +461,7 @@ a div {
     background-color: white;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -460,7 +471,8 @@ a div {
 #guacamole:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
 }
 
@@ -470,7 +482,7 @@ a div {
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     border: solid black 1px;
@@ -481,7 +493,8 @@ a div {
 #RH:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     background-color: #401A14;
     border: solid black 3px;
     border-radius: 80px;
@@ -495,7 +508,7 @@ a div {
     background-color: black;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -505,7 +518,8 @@ a div {
 #AE:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     background-color: #401A14;
     border: solid black 3px;
 }
@@ -518,7 +532,7 @@ a div {
     background-color: black;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -528,7 +542,8 @@ a div {
 #michters:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     background-color: #401A14;
     border: solid black 3px;
 }
@@ -541,7 +556,7 @@ a div {
     background-color: black;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -551,7 +566,8 @@ a div {
 #EW:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     background-color: #401A14;
     border: solid black 3px;
 }
@@ -564,7 +580,7 @@ a div {
     background-color: black;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -574,7 +590,8 @@ a div {
 #OF:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
 }
 
@@ -586,7 +603,7 @@ a div {
     background-color: white;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -596,7 +613,8 @@ a div {
 #CD:hover {
     width: 164px;
     height: 164px;
-    margin: 38px;
+    margin-top: 38px;
+    margin-bottom: -2px;
     border: solid black 3px;
 }
 
@@ -608,11 +626,19 @@ a div {
     background-color: white;
     border: solid black 1px;
     border-radius: 6px;
-    margin: 40px;
+    margin-top: 40px;
     width: 160px;
     height: 160px;
     text-align: center;
     display: inline-block;
+}
+
+#LS:hover {
+    width: 164px;
+    height: 164px;
+    margin-top: 38px;
+    margin-bottom: -2px;
+    border: solid black 3px;
 }
 
 .flex {
@@ -625,11 +651,8 @@ section.flex {
     flex-basis: 33%;
 }
 
-#LS:hover {
-    width: 164px;
-    height: 164px;
-    margin: 38px;
-    border: solid black 3px;
+#todonav {
+    width: 100%;
 }
 
 a.todob div {
